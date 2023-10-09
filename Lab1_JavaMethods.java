@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab1 {
+public class Lab1_JavaMethods {
     static Scanner input = new Scanner(System.in);
     static int per_square(int side) {
         return side * 4;
