@@ -2,27 +2,13 @@ import java.util.Scanner;
 
 public class Lab1 {
     static Scanner input = new Scanner(System.in);
-    static int per_square(int side) {
-        return side * 4;
-    }
-    static int per_rec(int length, int width) {
-        return 2 * (length * width);
-    }
-    static int area_sq(int side) {
-        return side * side;
-    }
-    static int area_rec(int length, int width) {
-        return length * width;
-    }
-    static double area_tri(int base, int height) {
-        return 0.5 * (base * height);
-    }
-    static void println(String x) {
-        System.out.println(x);
-    }
-    static void print(String x) {
-        System.out.print(x);
-    }
+    static int per_square(int side) {return side * 4;}
+    static int per_rec(int length, int width) {return 2 * (length * width);}
+    static int area_sq(int side) {return side * side;}
+    static int area_rec(int length, int width) {return length * width;}
+    static double area_tri(int base, int height) {return 0.5 * (base * height);}
+    static void println(String x) {System.out.println(x);}
+    static void print(String x) {System.out.print(x);}
     
     
     public static void main(String[] args) {
