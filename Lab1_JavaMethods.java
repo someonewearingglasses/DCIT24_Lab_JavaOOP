@@ -14,7 +14,7 @@ public class Lab1 {
     public static void main(String[] args) {
         String formula;
         
-        System.out.print("Type below the formula: ");
+        System.out.print("Type formula: ");
         formula = input.nextLine();
         
         switch (formula.toLowerCase()) {
